@@ -1,0 +1,49 @@
+<style>
+    .amigos-aliados__vertical {
+        display: inline;
+        float: left;
+        width: 25%;
+    }
+    
+    .amigos-aliados__vertical > select > option {
+        font-size: 1rem;
+    }
+
+    .amigos-aliados__fotos {
+        display: inline;
+        float: left;
+        width: 50%;
+    }
+
+    .fotos__slideshow {  
+        background-color: white;      
+        width: 546px;
+        height: 546px;
+        padding: 36px;
+        box-shadow: 1px 1px 15px ;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotos__slideshow img {
+        max-width: 510px;
+        max-height: 510px;
+        border-radius: 10px;
+    }
+</style>
+
+<div class="amigos-aliados">
+    <div id="vertical" class="amigos-aliados__vertical">
+        <select name="farmacias" id="farmacias">
+            <option value="Famacias" selected="selected">Farmacias</option>
+            <option value="farmacia-sancarlos">Farmacia San Carlos</option>
+            <option value="farmacia-24hrs-nathalia">Farmacia 24hrs Nathalia</option>
+        </select>
+    </div>
+    <div id="fotos" class="amigos-aliados__fotos">
+        <div class="fotos__slideshow">
+            <img src="./AmigosAliadosWordpressPlugin/images/FARMACIA-24HRS-NATHALIA-1.jpg" alt="">
+        </div>
+    </div>
+</div>
